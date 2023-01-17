@@ -3186,6 +3186,7 @@ local Section = Tab:NewSection("Scrips")
 Section:NewButton("Hoho Hub", "Fe script hub", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
+
 local Tab = Window:NewTab("Settings")
 local Section = Tab:NewSection("Customize")
 Section:NewKeybind("ToggleUI", "KeybindInfo", Enum.KeyCode.M, function()
