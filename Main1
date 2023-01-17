@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SKHUB", "Sentinel")
+local Window = Library.CreateLib("SKHUB Kavo Lib", "Sentinel")
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Info")
 Section:NewLabel("Created by sk_lvsmusic")
