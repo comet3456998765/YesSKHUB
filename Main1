@@ -1713,6 +1713,6 @@ local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or
 end)
 local Tab = Window:NewTab("Settings")
 local Section = Tab:NewSection("Customize")
-Section:NewKeybind("M", "KeybindInfo", Enum.KeyCode.M, function()
+Section:NewKeybind("ToggleUI", "KeybindInfo", Enum.KeyCode.M, function()
 	Library:ToggleUI()
 end)
