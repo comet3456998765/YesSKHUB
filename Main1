@@ -435,7 +435,9 @@ Section:NewButton("Owl hub", "Script for 30 games", function()
     loadstring(game:HttpGet("https://cdn.wearedevs.net/scripts/OwlHub.txt"))()
 end)
 Section:NewButton("Eclipse hub", "Script for all games", function()
-    print("Clicked")
+    getgenv().mainKey = "nil"
+
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https\58//api.eclipsehub.xyz/auth";c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
 end)
 Section:NewButton("Aimbot for Mobiles", "Script for all games", function()
     loadstring(game:HttpGet("https://pastebin.com/raw/1Gp9c57U"))()
