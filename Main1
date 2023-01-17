@@ -3,7 +3,7 @@ local Window = Library.CreateLib("SKHUB", "Sentinel")
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Info")
 Section:NewLabel("Created by sk_lvsmusic")
-Section:NewLabel("V.1.2 Remake")
+Section:NewLabel("V.1.3 Remake")
 Section:NewLabel("My discord server: https://discord.gg/j9RGfjcYYg")
 local Tab = Window:NewTab("Universal")
 local Section = Tab:NewSection("Scripts")
@@ -456,6 +456,9 @@ Section:NewButton("Septex admin (Need key)", "Script for prison life", function(
 end)
 local Tab = Window:NewTab("Fe scripts")
 local Section = Tab:NewSection("Scripts")
+Section:NewButton("1x1x1x1 gui", "Fe script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/tyreltrijo/1x1/main/1x1x1x1'))()
+end)
 Section:NewButton("Nameless", "Fe script", function()
     --[[
     fe nameless animations v5
