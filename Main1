@@ -4,6 +4,29 @@ local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
 Section:NewLabel("Created by SK_LVSMUSIC Tiktok!")
 Section:NewLabel("My discord: https://discord.gg/N5kgmYRx7E")
+-- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Back/Front Flip", "Makes you do gymnastics", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/7wDcPtLk'))()
+    end)
+
+    MainSection:NewToggle("Super-Human", "go fast and jump high", function(state)
+        if state then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        else
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        end
+    end)
+
+    MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+    end)
+  end)
 local Tab = Window:NewTab("Scripts Prison Life")
 local Section = Tab:NewSection("Scripts (no mobile)")
 Section:NewButton("Tiger Admin", "Fe admin", function()
