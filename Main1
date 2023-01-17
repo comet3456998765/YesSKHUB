@@ -1,5 +1,5 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-local Window = Library.CreateLib("SK Hub                                                                               v.0.1", "DarkTheme")
+local Window = Library.CreateLib("SK Hub                                                                               v.0.6", "DarkTheme")
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Credits")
 Section:NewLabel("Created by SK_LVSMUSIC Tiktok!")
