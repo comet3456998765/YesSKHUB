@@ -2,6 +2,9 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("SKHUB Kavo Lib", "Ocean")
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Info")
+Section:NewKeybind("Enter your toogle gui Keyblind!", ".", Enum.KeyCode.F, function()
+	print("You just clicked the bind")
+end)
 Section:NewLabel("Created by sk_lvsmusic")
 Section:NewLabel("V.1.5 Remake")
 Section:NewLabel("My discord server: https://discord.gg/j9RGfjcYYg")
@@ -89,7 +92,4 @@ Section:NewLabel("You have already copied the link to get the item(Fe Psycho Sla
 
     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
-    end)
-    Section:NewKeybind("Enter Your Toogle Gui Keyblind", ".", Enum.KeyCode.F, function()
-	Library:ToggleUI()
     end)
