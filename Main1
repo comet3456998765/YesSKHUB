@@ -87,3 +87,8 @@ Section:NewLabel("You have already copied the link to get the item(Fe Psycho Sla
     MainSection:NewButton("Infinite Yield", "FE Admin Commands", function()
         loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
     end)
+local Tab = Window:NewTab("Setting")
+local Section = Tab:NewSection("Toogle Gui")
+Section:NewKeybind("Enter your Keyblind", ".", Enum.KeyCode.M, function()
+	Library:ToggleUI()
+end)
