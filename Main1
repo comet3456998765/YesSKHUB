@@ -2,7 +2,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHept
 local Window = Library.CreateLib("SKHUB Kavo Lib", "Ocean")
 local Tab = Window:NewTab("Credits")
 local Section = Tab:NewSection("Info")
-Section:NewKeybind("Enter your toogle gui Keyblind!", ".", Enum.KeyCode.F, function()
+Section:NewKeybind("Enter your toogle gui Keyblind!", ".", Enum.KeyCode.M, function()
 	Library:ToggleUI()
 end)
 Section:NewLabel("Created by sk_lvsmusic")
