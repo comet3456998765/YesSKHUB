@@ -12,7 +12,6 @@ for theme, color in pairs(themes) do
     Section:NewColorPicker(theme, "Change your "..theme, color, function(color3)
         Library:ChangeColor(theme, color3)
     end)
-end
 local Tab = Window:NewTab("Games")
 local Section = Tab:NewSection("Prison life")
 Section:NewButton("Septex Admin(Needs key)", "Admin for prison life", function()
