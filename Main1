@@ -9,7 +9,7 @@ Section:NewKeybind("Enter Your Toogle Gui Keyblind", ".", Enum.KeyCode.F, functi
 	Library:ToggleUI()
 end)
 Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
-    game.Players.LocalPlayer.Character.Humanoid.Jumpower = s
+    game.Players.LocalPlayer.Character.Humanoid.Jumpower = j
 end)
 local Tab = Window:NewTab("Games")
 local Section = Tab:NewSection("Prison life")
